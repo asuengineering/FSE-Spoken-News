@@ -14,11 +14,11 @@ add_filter( 'body_class', function( $classes ) {
 get_header(); ?>
 		
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main spokennews-start">
 			
 			<?php if ( have_posts() ) : ?>
 
-			<h4>Today's news for the Fulton Schools of Engineering:</h4>
+			<h4>Here is today's news for the Fulton Schools:</h4>
 
 			<?php
 				/* Query Posts */

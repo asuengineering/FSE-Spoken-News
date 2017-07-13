@@ -27,7 +27,7 @@ get_header();?>
 		<main id="main" class="site-main">
 
 		<article class="theme-option hentry">
-			<p><strong>Preface text: </strong>Today's news for the Fulton Schools of Engineering:</p>
+			<p><strong>Preface text: </strong>Here is today's news for the Fulton Schools:</p>
 		</article>
 
 			<?php
