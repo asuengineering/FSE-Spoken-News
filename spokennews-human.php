@@ -27,7 +27,7 @@ get_header();?>
 		<main id="main" class="site-main">
 
 		<article class="theme-option hentry">
-			<p><strong>Preface text: </strong>Here is today's news for the Fulton Schools:</p>
+			<p class="spoken-wrap spoken-wrap-open"><strong>Preface text: </strong>Inner Circle brings you the news and events from ASU's Fulton Schools of Engineering.</p>
 		</article>
 
 			<?php
@@ -48,7 +48,7 @@ get_header();?>
 			endwhile; // End of the loop. ?>
 
 			<article class="theme-option hentry">
-				<p><strong>Closing text: </strong>Thanks for listening! Go Devils!</p>
+				<p class="spoken-wrap spoken-wrap-close"><strong>Closing text: </strong>For more news, visit Inner Circle dot engineering dot A. S. U. dot E. D. U. and check your email inbox Tuesday after five p. m. for the latest weekly newsletter.</p>
 			</article>
 
 			<?php

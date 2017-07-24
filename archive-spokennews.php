@@ -18,7 +18,7 @@ get_header(); ?>
 			
 			<?php if ( have_posts() ) : ?>
 
-			<h4>Here is today's news for the Fulton Schools:</h4>
+			<h4 class="spoken-wrap spoken-wrap-open">Inner Circle brings you the news and events from ASU's Fulton Schools of Engineering.</h4>
 
 			<?php
 				/* Query Posts */
@@ -49,7 +49,7 @@ get_header(); ?>
 			?>
 
 			<hr>
-			<h4>Thanks for listening! Go Devils!</h4>
+			<h4 class="spoken-wrap spoken-wrap-close">For more news, visit inner circle dot engineering dot A. S. U. dot E. D. U. and check your email inbox Tuesday after five p. m. for the latest weekly newsletter.</h4>
 
 			<?php else :
 
