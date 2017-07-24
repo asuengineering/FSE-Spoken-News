@@ -13,11 +13,9 @@ Contains a Custom Post Type called `spokennews` and several theme files to rende
 ![Sparky's Trident](https://brandguide.asu.edu/sites/default/files/styles/panopoly_image_original/public/asu_brandhq_images_master_pitchfork_0.png?itok=CdnAzLZW)
 
 ## Versions ##
-
-0.2 - Adjusted hard coded values for intro and outro text.
-0.1 - Initial deployment to GitHub.
+- v0.3: More intro/outro text adjustments.
+- v0.2: Adjusted hard coded values for intro and outro text.
+- v0.1: Initial deployment to GitHub.
 
 ## To Do ##
 - Impliment theme options panel to allow for intro and outro text to be changed as needed.
-
-
