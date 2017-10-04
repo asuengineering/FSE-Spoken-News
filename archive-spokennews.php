@@ -9,6 +9,10 @@ add_filter( 'body_class', function( $classes ) {
     return array_merge( $classes, array( 'spokennews', 'spokennews-machine' ) );
 } );
 
+// get Carbon Field values for opening and closing text.
+$opening = carbon_get_theme_option( 'asufse_spokenword_openingtext' );
+$closing = carbon_get_theme_option( 'asufse_spokenword_closingtext' );
+
 /* Page Template 
 ============================ */
 get_header(); ?>
@@ -18,7 +22,7 @@ get_header(); ?>
 			
 			<?php if ( have_posts() ) : ?>
 
-			<h4 class="spoken-wrap spoken-wrap-open">Inner Circle brings you the news and events from ASU's Fulton Schools of Engineering.</h4>
+			<h4 class="spoken-wrap spoken-wrap-open"><?php echo $opening; ?></h4>
 
 			<?php
 				/* Query Posts */
@@ -49,7 +53,7 @@ get_header(); ?>
 			?>
 
 			<hr>
-			<h4 class="spoken-wrap spoken-wrap-close">For more news, visit inner circle dot engineering dot A. S. U. dot E. D. U. and check your email inbox Tuesday after five p. m. for the latest weekly newsletter.</h4>
+			<h4 class="spoken-wrap spoken-wrap-close"><?php echo $closing;?></h4>
 
 			<?php else :
 

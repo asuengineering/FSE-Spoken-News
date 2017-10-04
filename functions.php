@@ -99,8 +99,7 @@ require get_template_directory() . '/inc/template-functions.php';
 
 	// First, load the CPT file & the theme options panel.
 	require get_template_directory() . '/spokennews_cpt.php';
-	// Phase 2 Requirement: require get_template_directory() . '/spokennews_options.php';
-
+	require get_template_directory() . '/spokennews_options.php';
 
 	// Hide 'posts' from the menu, for clarity. Has the effect of removing it from the DB
 	add_action('admin_menu','remove_default_post_type');
